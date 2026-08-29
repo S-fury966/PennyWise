@@ -1,0 +1,439 @@
+{
+  "summary": {
+    "total_transactions": 60,
+    "category_counts": {
+      "CLEAN_MATCH": 35,
+      "FEE_MISMATCH_EXPLAINABLE": 8,
+      "TIMING_LAG_EXPLAINABLE": 5,
+      "PARTIAL_SETTLEMENT_SPLIT": 3,
+      "ROUNDING_DRIFT_EXPLAINABLE": 3,
+      "DUPLICATE_UTR_ERROR": 2,
+      "REFUND_NOT_REFLECTED": 2,
+      "ORPHAN_NO_GATEWAY_MATCH": 1,
+      "ORPHAN_NO_LEDGER_MATCH": 1
+    }
+  },
+  "records": {
+    "ORD10002": {
+      "category": "CLEAN_MATCH",
+      "utrs": [
+        "UTR556001"
+      ],
+      "notes": "Standard 2% fee, normal T+1/T+2 lag"
+    },
+    "ORD10003": {
+      "category": "CLEAN_MATCH",
+      "utrs": [
+        "UTR556002"
+      ],
+      "notes": "Standard 2% fee, normal T+1/T+2 lag"
+    },
+    "ORD10004": {
+      "category": "CLEAN_MATCH",
+      "utrs": [
+        "UTR556003"
+      ],
+      "notes": "Standard 2% fee, normal T+1/T+2 lag"
+    },
+    "ORD10005": {
+      "category": "CLEAN_MATCH",
+      "utrs": [
+        "UTR556004"
+      ],
+      "notes": "Standard 2% fee, normal T+1/T+2 lag"
+    },
+    "ORD10006": {
+      "category": "CLEAN_MATCH",
+      "utrs": [
+        "UTR556005"
+      ],
+      "notes": "Standard 2% fee, normal T+1/T+2 lag"
+    },
+    "ORD10007": {
+      "category": "CLEAN_MATCH",
+      "utrs": [
+        "UTR556006"
+      ],
+      "notes": "Standard 2% fee, normal T+1/T+2 lag"
+    },
+    "ORD10008": {
+      "category": "CLEAN_MATCH",
+      "utrs": [
+        "UTR556007"
+      ],
+      "notes": "Standard 2% fee, normal T+1/T+2 lag"
+    },
+    "ORD10009": {
+      "category": "CLEAN_MATCH",
+      "utrs": [
+        "UTR556008"
+      ],
+      "notes": "Standard 2% fee, normal T+1/T+2 lag"
+    },
+    "ORD10010": {
+      "category": "CLEAN_MATCH",
+      "utrs": [
+        "UTR556009"
+      ],
+      "notes": "Standard 2% fee, normal T+1/T+2 lag"
+    },
+    "ORD10011": {
+      "category": "CLEAN_MATCH",
+      "utrs": [
+        "UTR556010"
+      ],
+      "notes": "Standard 2% fee, normal T+1/T+2 lag"
+    },
+    "ORD10012": {
+      "category": "CLEAN_MATCH",
+      "utrs": [
+        "UTR556011"
+      ],
+      "notes": "Standard 2% fee, normal T+1/T+2 lag"
+    },
+    "ORD10013": {
+      "category": "CLEAN_MATCH",
+      "utrs": [
+        "UTR556012"
+      ],
+      "notes": "Standard 2% fee, normal T+1/T+2 lag"
+    },
+    "ORD10014": {
+      "category": "CLEAN_MATCH",
+      "utrs": [
+        "UTR556013"
+      ],
+      "notes": "Standard 2% fee, normal T+1/T+2 lag"
+    },
+    "ORD10015": {
+      "category": "CLEAN_MATCH",
+      "utrs": [
+        "UTR556014"
+      ],
+      "notes": "Standard 2% fee, normal T+1/T+2 lag"
+    },
+    "ORD10016": {
+      "category": "CLEAN_MATCH",
+      "utrs": [
+        "UTR556015"
+      ],
+      "notes": "Standard 2% fee, normal T+1/T+2 lag"
+    },
+    "ORD10017": {
+      "category": "CLEAN_MATCH",
+      "utrs": [
+        "UTR556016"
+      ],
+      "notes": "Standard 2% fee, normal T+1/T+2 lag"
+    },
+    "ORD10018": {
+      "category": "CLEAN_MATCH",
+      "utrs": [
+        "UTR556017"
+      ],
+      "notes": "Standard 2% fee, normal T+1/T+2 lag"
+    },
+    "ORD10019": {
+      "category": "CLEAN_MATCH",
+      "utrs": [
+        "UTR556018"
+      ],
+      "notes": "Standard 2% fee, normal T+1/T+2 lag"
+    },
+    "ORD10020": {
+      "category": "CLEAN_MATCH",
+      "utrs": [
+        "UTR556019"
+      ],
+      "notes": "Standard 2% fee, normal T+1/T+2 lag"
+    },
+    "ORD10021": {
+      "category": "CLEAN_MATCH",
+      "utrs": [
+        "UTR556020"
+      ],
+      "notes": "Standard 2% fee, normal T+1/T+2 lag"
+    },
+    "ORD10022": {
+      "category": "CLEAN_MATCH",
+      "utrs": [
+        "UTR556021"
+      ],
+      "notes": "Standard 2% fee, normal T+1/T+2 lag"
+    },
+    "ORD10023": {
+      "category": "CLEAN_MATCH",
+      "utrs": [
+        "UTR556022"
+      ],
+      "notes": "Standard 2% fee, normal T+1/T+2 lag"
+    },
+    "ORD10024": {
+      "category": "CLEAN_MATCH",
+      "utrs": [
+        "UTR556023"
+      ],
+      "notes": "Standard 2% fee, normal T+1/T+2 lag"
+    },
+    "ORD10025": {
+      "category": "CLEAN_MATCH",
+      "utrs": [
+        "UTR556024"
+      ],
+      "notes": "Standard 2% fee, normal T+1/T+2 lag"
+    },
+    "ORD10026": {
+      "category": "CLEAN_MATCH",
+      "utrs": [
+        "UTR556025"
+      ],
+      "notes": "Standard 2% fee, normal T+1/T+2 lag"
+    },
+    "ORD10027": {
+      "category": "CLEAN_MATCH",
+      "utrs": [
+        "UTR556026"
+      ],
+      "notes": "Standard 2% fee, normal T+1/T+2 lag"
+    },
+    "ORD10028": {
+      "category": "CLEAN_MATCH",
+      "utrs": [
+        "UTR556027"
+      ],
+      "notes": "Standard 2% fee, normal T+1/T+2 lag"
+    },
+    "ORD10029": {
+      "category": "CLEAN_MATCH",
+      "utrs": [
+        "UTR556028"
+      ],
+      "notes": "Standard 2% fee, normal T+1/T+2 lag"
+    },
+    "ORD10030": {
+      "category": "CLEAN_MATCH",
+      "utrs": [
+        "UTR556029"
+      ],
+      "notes": "Standard 2% fee, normal T+1/T+2 lag"
+    },
+    "ORD10031": {
+      "category": "CLEAN_MATCH",
+      "utrs": [
+        "UTR556030"
+      ],
+      "notes": "Standard 2% fee, normal T+1/T+2 lag"
+    },
+    "ORD10032": {
+      "category": "CLEAN_MATCH",
+      "utrs": [
+        "UTR556031"
+      ],
+      "notes": "Standard 2% fee, normal T+1/T+2 lag"
+    },
+    "ORD10033": {
+      "category": "CLEAN_MATCH",
+      "utrs": [
+        "UTR556032"
+      ],
+      "notes": "Standard 2% fee, normal T+1/T+2 lag"
+    },
+    "ORD10034": {
+      "category": "CLEAN_MATCH",
+      "utrs": [
+        "UTR556033"
+      ],
+      "notes": "Standard 2% fee, normal T+1/T+2 lag"
+    },
+    "ORD10035": {
+      "category": "CLEAN_MATCH",
+      "utrs": [
+        "UTR556034"
+      ],
+      "notes": "Standard 2% fee, normal T+1/T+2 lag"
+    },
+    "ORD10036": {
+      "category": "CLEAN_MATCH",
+      "utrs": [
+        "UTR556035"
+      ],
+      "notes": "Standard 2% fee, normal T+1/T+2 lag"
+    },
+    "ORD10037": {
+      "category": "FEE_MISMATCH_EXPLAINABLE",
+      "utrs": [
+        "UTR556036"
+      ],
+      "notes": "Non-standard fee slab 3.0% \u2014 should resolve via fee math, not flag as exception"
+    },
+    "ORD10038": {
+      "category": "FEE_MISMATCH_EXPLAINABLE",
+      "utrs": [
+        "UTR556037"
+      ],
+      "notes": "Non-standard fee slab 2.36% \u2014 should resolve via fee math, not flag as exception"
+    },
+    "ORD10039": {
+      "category": "FEE_MISMATCH_EXPLAINABLE",
+      "utrs": [
+        "UTR556038"
+      ],
+      "notes": "Non-standard fee slab 2.36% \u2014 should resolve via fee math, not flag as exception"
+    },
+    "ORD10040": {
+      "category": "FEE_MISMATCH_EXPLAINABLE",
+      "utrs": [
+        "UTR556039"
+      ],
+      "notes": "Non-standard fee slab 1.5% \u2014 should resolve via fee math, not flag as exception"
+    },
+    "ORD10041": {
+      "category": "FEE_MISMATCH_EXPLAINABLE",
+      "utrs": [
+        "UTR556040"
+      ],
+      "notes": "Non-standard fee slab 3.0% \u2014 should resolve via fee math, not flag as exception"
+    },
+    "ORD10042": {
+      "category": "FEE_MISMATCH_EXPLAINABLE",
+      "utrs": [
+        "UTR556041"
+      ],
+      "notes": "Non-standard fee slab 2.36% \u2014 should resolve via fee math, not flag as exception"
+    },
+    "ORD10043": {
+      "category": "FEE_MISMATCH_EXPLAINABLE",
+      "utrs": [
+        "UTR556042"
+      ],
+      "notes": "Non-standard fee slab 3.0% \u2014 should resolve via fee math, not flag as exception"
+    },
+    "ORD10044": {
+      "category": "FEE_MISMATCH_EXPLAINABLE",
+      "utrs": [
+        "UTR556043"
+      ],
+      "notes": "Non-standard fee slab 1.5% \u2014 should resolve via fee math, not flag as exception"
+    },
+    "ORD10045": {
+      "category": "TIMING_LAG_EXPLAINABLE",
+      "utrs": [
+        "UTR556044"
+      ],
+      "notes": "Settlement at T+3 \u2014 wider than usual window but legitimate"
+    },
+    "ORD10046": {
+      "category": "TIMING_LAG_EXPLAINABLE",
+      "utrs": [
+        "UTR556045"
+      ],
+      "notes": "Settlement at T+3 \u2014 wider than usual window but legitimate"
+    },
+    "ORD10047": {
+      "category": "TIMING_LAG_EXPLAINABLE",
+      "utrs": [
+        "UTR556046"
+      ],
+      "notes": "Settlement at T+3 \u2014 wider than usual window but legitimate"
+    },
+    "ORD10048": {
+      "category": "TIMING_LAG_EXPLAINABLE",
+      "utrs": [
+        "UTR556047"
+      ],
+      "notes": "Settlement at T+3 \u2014 wider than usual window but legitimate"
+    },
+    "ORD10049": {
+      "category": "TIMING_LAG_EXPLAINABLE",
+      "utrs": [
+        "UTR556048"
+      ],
+      "notes": "Settlement at T+4 \u2014 wider than usual window but legitimate"
+    },
+    "ORD10050": {
+      "category": "PARTIAL_SETTLEMENT_SPLIT",
+      "utrs": [
+        "UTR556049",
+        "UTR556050"
+      ],
+      "notes": "One order settled across two UTRs \u2014 requires one-to-many matching"
+    },
+    "ORD10051": {
+      "category": "PARTIAL_SETTLEMENT_SPLIT",
+      "utrs": [
+        "UTR556051",
+        "UTR556052"
+      ],
+      "notes": "One order settled across two UTRs \u2014 requires one-to-many matching"
+    },
+    "ORD10052": {
+      "category": "PARTIAL_SETTLEMENT_SPLIT",
+      "utrs": [
+        "UTR556053",
+        "UTR556054"
+      ],
+      "notes": "One order settled across two UTRs \u2014 requires one-to-many matching"
+    },
+    "ORD10053": {
+      "category": "DUPLICATE_UTR_ERROR",
+      "utrs": [
+        "UTR556055"
+      ],
+      "notes": "Same UTR credited twice in bank statement \u2014 genuine double-credit error, should NOT auto-resolve"
+    },
+    "ORD10054": {
+      "category": "DUPLICATE_UTR_ERROR",
+      "utrs": [
+        "UTR556056"
+      ],
+      "notes": "Same UTR credited twice in bank statement \u2014 genuine double-credit error, should NOT auto-resolve"
+    },
+    "ORD10055": {
+      "category": "ROUNDING_DRIFT_EXPLAINABLE",
+      "utrs": [
+        "UTR556057"
+      ],
+      "notes": "Drift of +0.01 between net_settled and credited_amount \u2014 within tolerance"
+    },
+    "ORD10056": {
+      "category": "ROUNDING_DRIFT_EXPLAINABLE",
+      "utrs": [
+        "UTR556058"
+      ],
+      "notes": "Drift of +0.50 between net_settled and credited_amount \u2014 within tolerance"
+    },
+    "ORD10057": {
+      "category": "ROUNDING_DRIFT_EXPLAINABLE",
+      "utrs": [
+        "UTR556059"
+      ],
+      "notes": "Drift of -0.50 between net_settled and credited_amount \u2014 within tolerance"
+    },
+    "ORD10058": {
+      "category": "REFUND_NOT_REFLECTED",
+      "utrs": [
+        "UTR556060"
+      ],
+      "notes": "Ledger shows refunded but gateway/bank still show original credit \u2014 reversal lag, real exception"
+    },
+    "ORD10059": {
+      "category": "REFUND_NOT_REFLECTED",
+      "utrs": [
+        "UTR556061"
+      ],
+      "notes": "Ledger shows refunded but gateway/bank still show original credit \u2014 reversal lag, real exception"
+    },
+    "ORPHAN_BANK_UTR556062": {
+      "category": "ORPHAN_NO_GATEWAY_MATCH",
+      "utrs": [
+        "UTR556062"
+      ],
+      "notes": "Bank credit with no matching gateway UTR at all \u2014 genuine unresolved exception"
+    },
+    "ORD10060": {
+      "category": "ORPHAN_NO_LEDGER_MATCH",
+      "utrs": [],
+      "notes": "Order in ledger with no matching gateway transaction \u2014 payment likely failed silently"
+    }
+  }
+}
