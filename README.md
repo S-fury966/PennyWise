@@ -2,7 +2,6 @@
 
 Multi-source financial reconciliation: matching transaction records across an internal order ledger, a payment gateway settlement report, and a bank statement to verify money moved correctly.
 
-Built for the AI Finance Controller hackathon track.
 
 ## Project Structure
 
