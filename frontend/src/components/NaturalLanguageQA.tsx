@@ -1,8 +1,8 @@
-import { useState, useRef, useEffect } from "react";
+import { useState, useRef, useEffect, type FormEvent } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { MessageCircle, Send, Loader2, ChevronDown, ChevronRight, Search } from "lucide-react";
 import { askQuestion } from "../api";
-import type { AskResponse, Transaction } from "../api";
+import type { Transaction } from "../api";
 
 interface QAEntry {
   question: string;
@@ -37,7 +37,7 @@ export default function NaturalLanguageQA() {
     bottomRef.current?.scrollIntoView({ behavior: "smooth" });
   }, [history]);
 
-  async function handleSubmit(e: React.FormEvent) {
+  async function handleSubmit(e: FormEvent) {
     e.preventDefault();
     const q = input.trim();
     if (!q || loading) return;
@@ -173,6 +173,7 @@ export default function NaturalLanguageQA() {
                                     <span>Confidence: {txn.confidence_score != null ? `${(txn.confidence_score * 100).toFixed(1)}%` : "—"}</span>
                                     <span>Amount: {txn.amount_score?.toFixed(2) ?? "—"}</span>
                                     <span>Timing: {txn.timing_score?.toFixed(2) ?? "—"}</span>
+                                    <span className="ml-auto text-text-muted">Source: {txn.explanation_source}</span>
                                   </div>
                                   <p className="text-xs text-text-primary leading-relaxed">{txn.explanation}</p>
                                 </div>

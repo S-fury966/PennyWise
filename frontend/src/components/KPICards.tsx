@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect, useState, type ElementType } from "react";
 import { motion } from "framer-motion";
 import { TrendingUp, Activity, AlertTriangle, BarChart3, Clock } from "lucide-react";
 import type { Summary } from "../api";
@@ -23,7 +23,7 @@ function useCountUp(target: number, duration = 1200) {
 }
 
 function Card({ icon: Icon, label, value, suffix, color }: {
-  icon: React.ElementType; label: string; value: number; suffix?: string; color: string;
+  icon: ElementType; label: string; value: number; suffix?: string; color: string;
 }) {
   const display = useCountUp(value);
   return (

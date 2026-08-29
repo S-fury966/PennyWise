@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { BookOpen, Download, ChevronDown, ChevronRight, Table2 } from "lucide-react";
+import { BookOpen, Download, ChevronDown, ChevronRight } from "lucide-react";
 
 interface SchemaTemplate {
   required_columns: string[];

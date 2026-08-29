@@ -1,4 +1,4 @@
-import { useState, useRef } from "react";
+import { useState, useRef, type RefObject } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import {
   Upload, CheckCircle2, XCircle, FileText, Loader2,
@@ -65,7 +65,7 @@ export default function DatasetUpload({ onUploadComplete }: DatasetUploadProps) 
     label, file, inputRef, onChange,
   }: {
     label: string; file: File | null;
-    inputRef: React.RefObject<HTMLInputElement | null>;
+    inputRef: RefObject<HTMLInputElement | null>;
     onChange: (f: File | null) => void;
   }) {
     return (

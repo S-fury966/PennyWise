@@ -1,0 +1,26 @@
+# ============================================================================
+# .dockerignore — Frontend build context (frontend/Dockerfile)
+# ============================================================================
+# Keeps Stage 1's COPY context lean. Only package.json, package-lock.json,
+# source files, and the nginx config are needed.
+
+node_modules/
+dist/
+dist-ssr/
+*.local
+.env*
+!.env.example
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Docker (don't copy Docker files into themselves)
+Dockerfile
+.dockerignore
