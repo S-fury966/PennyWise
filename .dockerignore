@@ -1,0 +1,47 @@
+# ============================================================================
+# .dockerignore — Root build context (backend Dockerfile)
+# ============================================================================
+# Keep the build context small and exclude secrets/dev artifacts.
+# This file is read by Docker when building from the project root
+# (the backend Dockerfile's context).
+
+# Secrets — never bake into any image layer
+.env
+
+# Python artifacts
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+*.egg-info/
+dist/
+build/
+
+# Node / frontend (backend image doesn't need these)
+frontend/
+node_modules/
+
+# Git
+.git/
+.gitignore
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Docker (don't copy Docker files into themselves)
+Dockerfile
+docker-compose.yml
+.dockerignore
+
+# Dev / test files
+*_test.py
+_test_threshold.py
+CLAUDE.md

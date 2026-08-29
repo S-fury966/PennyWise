@@ -1,0 +1,45 @@
+# ============================================================================
+# Docker Compose (Production) — AI Finance Controller
+# ============================================================================
+# Pulls pre-built images from Docker Hub instead of building locally.
+# No source code, Node.js, or Python toolchain required — just Docker.
+#
+# Usage:
+#   1. Copy .env.example to .env and fill in your GROQ_API_KEY.
+#   2. docker-compose -f docker-compose.prod.yml up
+#   3. Frontend: http://localhost:8080
+#      Backend API: http://localhost:8000
+#
+# To stop:
+#   docker-compose -f docker-compose.prod.yml down
+#   docker-compose -f docker-compose.prod.yml down -v  (also removes data)
+# ============================================================================
+
+services:
+  backend:
+    image: void64/pennywise-backend:latest
+    ports:
+      - "8000:8000"
+    env_file:
+      - .env
+    volumes:
+      - output:/app/output
+      - custom-data:/app/data/custom
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8000/')"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 10s
+
+  frontend:
+    image: void64/pennywise-frontend:latest
+    ports:
+      - "8080:80"
+    depends_on:
+      backend:
+        condition: service_healthy
+
+volumes:
+  output:
+  custom-data:
